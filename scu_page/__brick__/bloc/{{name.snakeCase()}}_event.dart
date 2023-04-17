@@ -6,3 +6,9 @@ abstract class {{name.pascalCase()}}Event extends Equatable {
   @override
   List<Object> get props => [];
 }
+
+class {{name.pascalCase()}}LoadStarted extends {{name.pascalCase()}}Event {
+final Locale locale;
+
+const {{name.pascalCase()}}LoadStarted(this.locale);
+}

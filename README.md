@@ -19,11 +19,12 @@ The first brick is Page which provides the default code for implementing a page 
     - page_name_skeleton_view.dart //if the bloc is in a loading state
   - page_name.dart //base file that holds it all together
 
-##Getting Started
-Check out the [mason cli docs](https://pub.dev/packages/mason_cli#installation) to install mason
+## Getting Started
+1. Check out the [mason cli docs](https://pub.dev/packages/mason_cli#installation) to install mason
 
-Once you have Mason CLI, you can create a new page in your flutter app by navigating to the /lib folder of the project and running the following command
+1. Once you have Mason CLI, you can create a new page in your flutter app by navigating to the /lib folder of the project and running the following command.
+
 ```
-mason add scuPage
-mason make scuPage 'nameOfNewPage'
+mason add flutterPage
+mason make flutterPage 'nameOfNewPage'
 ```
